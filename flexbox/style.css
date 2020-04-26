@@ -1,0 +1,58 @@
+body{
+	margin:0px;
+	padding: 0px;
+
+}
+
+.flex1 , .flex2, .flex3,.flex4, .flex5, .flex6{
+
+padding: 15px;
+background-color: rgba(210, 207, 207,0.8);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+img{
+	display: block;
+	box-shadow: 5px 5px 10px grey;
+ margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 209px;
+}
+
+
+div div div{
+
+	border-style: solid;
+padding: 8px 8px 0px 8px ;
+border-color: #7F7676;
+}
+
+p, pre{
+text-align: center;
+font-family: 'Bubblegum Sans', cursive;
+font-size: 15px;
+}
+
+div div div:hover{
+	background-color: rgba(209, 205, 205,1.0);
+	font-weight: bold;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  div.flex-container2 {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  div.flex-container1 {
+    display: none;
+  }
+}
